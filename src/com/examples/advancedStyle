@@ -1,0 +1,53 @@
+{
+    "globalStyles" : "globalStyle_part.json",
+    "libraries" : [],
+    "fonts": [],
+
+    ".simpleStyleName":
+    {
+    },
+
+    "#simpleIdStyle":
+    {
+        "hasBackground": true,
+        "hasTextfield": false,
+        "hasIcon": false,
+
+        "backgroundStyle":
+                [
+                    {
+                        "isFill": false,
+                        "isBorder": true,
+                        "strokeWidth": 1,
+                        "strokeDefaultColors": 0xCCCCCC,
+                        "strokeDefaultAlphas": [ .4, .2 ],
+                        "roundCorners": 0
+                    }
+                ],
+
+        "backgroundImageStyle":
+        {
+            "source":"",
+            "source.over":"",
+            "source.down":"",
+            "source.selected":"",
+            "source.selected_over":"",
+            "fillType":"default"
+        }
+    },
+
+    ".defaultRedButton":
+    {
+        "layout":
+        {
+            "width":50,
+            "width.over":100,
+            "height":100,
+            "layout":"horisontal",
+            "paddingLeft":100,
+            "marginLeft":100,
+            "alignH":"left",
+            "alignV":"top"
+        }
+    }
+}

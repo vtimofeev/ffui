@@ -1,0 +1,138 @@
+{
+    "libraries" : [],
+    "fonts": [],
+
+    "global":
+    {
+        "fillDefaultColors": [0xFFFFFF],
+        "fillDefaultAlphas": [1],
+        "fillAngle": 90,
+        "isBorder": true,
+        "strokeWidth": 1,
+        "strokeDefaultColors": [0xCCCCCC],
+        "strokeDefaultAlphas": [ .4, .2 ],
+        "roundCorners": 0,
+
+        "align": "left",
+        "bold": "false",
+        "italic": false,
+        "underline": false,
+        "color": 0,
+        "fontSize": 12,
+        "fontFamily": "Arial"
+    },
+
+    "button":
+    {
+        "hasBackground": true,
+        "hasTextfield": true,
+        "hasIcon": false,
+
+        "backgroundStyle":
+                [
+                    {
+                        "isFill": true,
+                        "fillDefaultColors": [0xFFFFFF],
+                        "fillDefaultColors.over": [0xFFFFFF],
+                        "fillDefaultAlphas": [1],
+                        "fillAngle": 90,
+                        "isBorder": true,
+                        "isBorder.over": true,
+                        "strokeWidth": 1,
+                        "strokeDefaultColors": [0xCCCCCC],
+                        "strokeDefaultAlphas": [.4,.2],
+                        "roundCorners": 0
+                    }
+                ],
+
+        "backgroundImageStyle":
+        {
+            "source":"",
+            "fillType":"default"
+        },
+
+        "textfieldStyle":
+        {
+            "align": "left",
+            "bold": "false",
+            "italic": false,
+            "underline": false,
+            "color": 0,
+            "fontSize": 12,
+            "fontFamily": "Arial"
+        },
+
+        "iconStyle":
+        {
+            "source":"",
+            "fillType":"default"
+        }
+    },
+
+    "radioButton":
+    {
+        "iconStyle":
+        {
+            "source":"",
+            "source.over":"",
+            "source.down":"",
+            "source.selected":"",
+            "source.selected_over":"",
+            "source.selected_down":"",
+            "source.disabled":"",
+            "fillType":"default"
+        }
+
+    },
+
+    ".simpleStyleName":
+    {
+    },
+
+    "#simpleIdStyle":
+    {
+        "hasBackground": true,
+        "hasTextfield": false,
+        "hasIcon": false,
+
+        "backgroundStyle":
+                [
+                    {
+                        "isFill": false,
+                        "isBorder": true,
+                        "strokeWidth": 1,
+                        "strokeDefaultColors": 0xCCCCCC,
+                        "strokeDefaultAlphas": [ .4, .2 ],
+                        "roundCorners": 0
+                    }
+                ],
+
+        "backgroundImageStyle":
+        {
+            "source":"",
+            "source.over":"",
+            "source.down":"",
+            "source.selected":"",
+            "source.selected_over":"",
+            "fillType":"default"
+        }
+    },
+
+    ".defaultRedButton":
+    {
+        "layout":
+        {
+            "width.over":100,
+            "height":100,
+
+            "layout":"horisontal",
+            "paddingLeft":100,
+            "marginLeft":100,
+
+            "alignH":"left",
+            "alignV":"top"
+        }
+    }
+
+
+}

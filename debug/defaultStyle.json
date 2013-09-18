@@ -1,0 +1,88 @@
+{
+    "libraries":[],
+    "fonts":[],
+
+
+    "global":{
+        "bgStyle":{
+            "fillColors":[0xFFFFFF],
+            "fillAlphas":[1],
+            "fillAngle":90,
+            "isBorder":true,
+            "strokeWidth":1,
+            "strokeColors":[0xCCCCCC],
+            "strokeAlphas":[ .4, .2 ],
+            "roundCorners":0
+        },
+        "txtStyle":{
+            "align":"left",
+            "bold":"false",
+            "italic":false,
+            "underline":false,
+            "color":0,
+            "fontSize":12,
+            "fontFamily":"Arial"
+        }
+    },
+
+    "button":{
+
+        "hasBackground":true,
+        "hasTextfield":false,
+        "hasIcon":false,
+
+        "bgStyle":{
+            "isFill":true,
+            "fillColors":[0x094679],
+            "fillColors.over":[0x0a74ad],
+            "fillColors.down":[0x053e5c],
+            "fillColors.selected":[0x094679],
+            "fillColors.selectedOver":[0x0a74ad],
+            "fillColors.selectedDown":[0x053e5c],
+            "fillAlphas":[1],
+            "isBorder":false
+        },
+
+        "txtStyle":{
+            "align":"left",
+            "bold":"false",
+            "italic":false,
+            "underline":false,
+            "color":0,
+            "fontSize":12,
+            "fontFamily":"Arial"
+        }
+    },
+
+    "#playTButton":{
+        "extends":"button",
+
+        "hasBackground":true,
+        "hasTextfield":false,
+        "hasIcon":true,
+
+        "imageStyle":{
+            "icon":"",
+            "icon.over":"",
+            "icon.down":"",
+            "icon.disbled":"",
+            "icon.selected":"",
+            "icon.selectedOver":"",
+            "icon.selectedDown":""
+        }
+    },
+
+    "#bg":{
+
+        "hasBackground":true,
+        "hasTextfield":false,
+        "hasIcon":false,
+        "bgStyle":{
+            "isFill":true,
+            "fillColors":[0xFFFFFF],
+            "fillAlphas":[1],
+            "fillAngle":0,
+            "isBorder":false
+        }
+    }
+}
